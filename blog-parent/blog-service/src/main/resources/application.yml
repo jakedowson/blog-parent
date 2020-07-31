@@ -1,0 +1,20 @@
+server:
+  port: 8606
+spring:
+  application:
+    name: blog-service
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://139.159.206.43:3306/szb99_blog?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 139.159.206.43
+    port: 6379
+  rabbitmq:
+    host: 139.159.206.43
+    port: 5672
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka

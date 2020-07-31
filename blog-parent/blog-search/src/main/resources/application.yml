@@ -1,0 +1,13 @@
+server:
+  port: 8605
+spring:
+  application:
+    name: blog-search
+  data:
+    elasticsearch:
+      cluster-name: myelasticsearch
+      cluster-nodes: 139.159.206.43:9300
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka

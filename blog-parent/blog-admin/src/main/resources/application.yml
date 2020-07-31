@@ -1,0 +1,9 @@
+server:
+  port: 8601
+spring:
+  application:
+    name: blog-admin
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka

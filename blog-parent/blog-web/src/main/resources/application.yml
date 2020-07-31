@@ -1,0 +1,9 @@
+server:
+  port: 8603
+spring:
+  application:
+    name: blog-listener
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka

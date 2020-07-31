@@ -1,0 +1,15 @@
+server:
+  port: 8604
+spring:
+  application:
+    name: blog-listener
+  redis:
+    host: 139.159.206.43
+    port: 6379
+  rabbitmq:
+    host: 139.159.206.43
+    port: 5672
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
